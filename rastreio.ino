@@ -1,6 +1,6 @@
-#include <Ultrasonic.h> // Inicia a biblioteca do sensor ultrassônico
+#include <Ultrasonic.h>// Inicia a biblioteca do sensor ultrassônico
 
-// Define os pinos trigger, echo e o pino do botão
+//Define os pinos trigger, echo e o pino do botão
 #define pino_trigger 27
 #define pino_echo 14
 #define pino_botao 17

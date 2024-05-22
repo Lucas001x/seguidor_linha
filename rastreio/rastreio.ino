@@ -1,7 +1,5 @@
 #include <Ultrasonic.h>// Inicia a biblioteca do sensor ultrassônico
 
-//teste de atuali. git
-
 //Define os pinos trigger, echo e o pino do botão
 #define pino_trigger 27
 #define pino_echo 14

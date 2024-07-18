@@ -82,18 +82,28 @@ void pegarbola(){
 
 void movefrente(){
   //move robo para frente
-  if (direita > centro + 2 && esquerda > centro + 2) {
+  for (direita > centro + 2 && esquerda > centro + 2) {
     Roda_DireitaF.write(65);
     Roda_EsquerdaF.write(125);
-}
+    delay(100);
+  }
 }
 
 void rodadireita(){
+  if(direita > esquerda + 2 && direita > centro + 2) {
+    Roda_DireitaF.write(60);    //105
+    Roda_EsquerdaF.write(60);
+    delay(100);  //125
+  }
   
 }
 
 void rodaesquerda(){
-
+  if(esquerda > direita +2 && esquerda > centro + 2) {
+    Roda_DireitaF.write(110);    //105
+    Roda_EsquerdaF.write(120);
+    delay(100);  //125
+  }
 }
 
 void rodar(){
